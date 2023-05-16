@@ -1,0 +1,66 @@
+/* Apply basic styles to the search input and button */
+#searchInput {
+    padding: 8px;
+    font-size: 16px;
+    width: 300px;
+  }
+  
+  #searchButton {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Center all elements */
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  /* Style the container for the search results */
+  #resultsContainer {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  /* Style each recipe item */
+  .recipe {
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin-bottom: 16px;
+    text-align: left;
+  }
+  
+  .recipe h2 {
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+  
+  .recipe p {
+    margin-bottom: 8px;
+  }
+  
+  .recipe img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 8px;
+  }
+  
+  /* Apply some responsive styles */
+  @media (max-width: 600px) {
+    #searchInput {
+      width: 100%;
+    }
+    
+    #searchButton {
+      width: 100%;
+    }
+  }
+  
